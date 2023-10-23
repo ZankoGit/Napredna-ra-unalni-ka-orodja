@@ -31,6 +31,13 @@ function risi_kroznico_in_tocke(stTock, r)
     scatter(x(tockeZunaj), y(tockeZunaj), 50, 'r', 'x');
     izrisi_kroznico(r);
     axis equal;
+    
+title('Naključno generirane točke na krožnici z lokom');
+    xlabel('X-os');
+    ylabel('Y-os');
+    legend('Krožnica','Znotraj krožnice', 'Zunaj krožnice');
+
+
 end
 
 function izrisi_kroznico(r)
